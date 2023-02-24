@@ -1,0 +1,1386 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.header{
+    height: 100vh;
+    width: 100%;
+}
+.nav{
+    background-color: rgb(34 32 50);
+    height: 11vh;
+    width: 100%;
+    display: flex;
+    /* position: fixed; */
+}
+.header .logo img{
+    height: 11vh;
+    width: 100%;
+}
+.topic{
+    margin-top: 1%;
+    display: flex;
+    gap: 15px;
+    text-decoration: none;
+    color: white;
+    list-style: none;
+}
+.topic  .my-stuff{
+    margin-left: 2%;
+}
+.nav .topic .hide {
+    display: none;
+}
+.nav .try p{
+    margin-top: 2%;
+    color: white;
+    background-color: #0f79af;
+    border-radius: 2px;
+    width: 280%;
+    height: 5vh;
+    padding: 4px;
+    text-align: center;
+}
+.nav .try{
+    margin-left: 75%;
+    margin-top: 0.5%;
+}
+.nav .icon{
+    margin-left: 12%;
+    margin-top: 1%;
+}
+.nav .icon i{
+    height: 10vh;
+    border: none;
+}
+.nav .lan{
+    display: block;
+}
+.nav .lan select{
+    background-color: rgb(34 32 50);
+    height: 5vh;
+    color: white;
+    border: none;
+    font-size: large;
+}
+.nav .person{
+    margin-left: 1%;
+}
+.nav .person button{
+    width: 200%;
+    height: 5vh;
+    font-size: large;
+    color: white;
+    border: none;
+    background-color: transparent;
+}
+
+.bg{ 
+    background: linear-gradient(to left, rgba(0,0,0,0),rgba(0,0,0,1)),url(/images/Amazon\ bg\ 2.jpg);
+    height: 81vh;
+    width: 100%;
+    background-size: cover;
+
+}
+.bg .content{
+    width: 45%;
+    color: white;
+    padding-top: 100px;
+    margin-left: 5%;
+    font-size: larger;
+} 
+.bg .content h1{
+    font-size: xxx-large;
+}
+.bg .content p{
+    font-size: x-large;
+    margin-top: 3%;
+}
+.bg .content button{
+    background-color: #0f79af;
+    color: white;
+    font-size: large;
+    width: 46%;
+    height: 8vh;
+    margin-top: 3%;
+    font-weight: bold;
+}
+.bg2{
+    background: linear-gradient(to right ,rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(/images/2nd\ bg.jpg);
+    height: 75vh;
+    width: 100%;
+    background-size: cover;
+}
+.bg2 .content-2{
+    width: 50%;
+    color: white;
+    padding-top: 90px;
+    margin-left: 48%;
+    font-size: larger;
+}
+.bg2 .content-2 h1{
+    font-size: xxx-large;
+}
+.bg2 .content-2 p{
+    font-size: x-large;
+    line-height: 3;
+}
+.bg2 .content-2 button{
+    background-color: #0f79af;
+    color: white;
+    font-size: large;
+    width: 40%;
+    height: 9vh;
+    margin-top: 5%;
+}
+.channels{
+    display: flex;
+    gap: 4px;
+    margin-top: 0.5%;
+    margin-left: 3%;
+} 
+.channels img {
+    width: 100%;
+    height: 20vh;
+    transition: 0.5s;
+}
+.channels  img:hover{
+    /* width: 103%;
+    height: 21vh; */
+    /* transition: 2ms; */
+    transform: scale(1.04);
+    box-shadow: #130d0d;
+}
+
+.mulchannels{
+    display: flex;
+}
+.mulchannels .details{
+    padding-top: 60px;
+    padding-left: 60px;
+    width: 50%;
+}
+.mulchannels .details h1{
+    font-size: xxx-large;
+}
+.mulchannels .details p{
+    font-size: x-large;
+    margin-top: 4%;
+}
+.offerrow{
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(to left ,rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(/images/offerrow.jpg);
+    background-size: cover;
+    color: white;
+}
+.offerrow .offerdetails{
+    padding-top: 55px;
+    margin-left: 52%;
+}
+.offerrow .offerdetails h1{
+    font-size: xxx-large;
+    line-height: 2;
+}
+.offerrow .offerdetails p{
+    font-size: x-large;
+}
+.offerrow .offerdetails button{
+    width: 40%;
+    height: 8vh;
+    background-color: #0f79af;
+    color: white;
+    margin-top: 8%;
+    font-weight: bold;
+    font-size: large;
+} 
+.familyfriendly{
+    width: 100%;
+    height: 78vh;
+    background: linear-gradient(to left ,rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(/images/last\ pg\ chhota\ bheem.jpg);
+    background-size: cover;
+}
+.familyfriendly .details{
+    color: white;
+    padding-top: 90px;
+    padding-left: 75px;
+    margin-right: 60%;
+}
+.familyfriendly .details h1{
+    font-size: xxx-large;
+}
+.familyfriendly .details p{
+    font-size: larger;
+    margin-top: 5%;
+}
+.familyfriendly .details button{
+    width: 60%;
+    height: 9vh;
+    background-color: #0f79af;
+    color: white;
+    margin-top: 10%;
+    font-weight: bold;
+    font-size: large;
+}
+.footer{
+    height: 25vh;
+    width: 100%;
+    background-color: #130d0d;
+}
+.footer .image{
+    text-align: center;
+    padding-top: 2%;
+}
+.footer .terms{
+    text-align: center;
+}
+.footer .terms a{
+    color: #0f79af;
+    text-decoration: none;
+}
+.footer .year p{
+    text-align: center;
+    color: #9b9494;
+    line-height: 2;
+}
+    
+
+@media(max-width:1100px){
+    .nav .try {
+        margin-left: 37%;
+        margin-top: 0.5%;
+    }
+    .bg2 .content-2 {
+        width: 50%;
+        color: white;
+        padding-top: 55px;
+        margin-left: 45%;
+        font-size: larger;
+    }
+    .offerrow{
+        height: 88vh;
+        width: 100%;
+    }
+    .offerrow .offerdetails h1 {
+        font-size: xxx-large;
+        line-height: 1;
+    }
+    .offerrow .offerdetails p{
+        margin-top: 4%;
+        padding-right: 25px;
+    }
+    .familyfriendly {
+        height: 85vh;
+        width: 100%;
+    }
+    
+}
+
+@media(max-width:1050px){
+    .nav .try {
+        margin-left: 28%;
+        margin-top: 0.5%;
+    }
+    .bg2 .content-2 p {
+        font-size: x-large;
+        line-height: 1.1;
+        margin-top: 5%;
+    }
+    .bg2 .content-2 button {
+        margin-top: 10%;    
+    
+    }
+    .bg2 .content-2{
+        margin-left: 48%;
+    } 
+}
+
+@media(max-width:1000px){
+    .nav .topic .home{
+        display: none;
+    }
+    .nav .topic .store{
+        display: none;
+    }
+    .nav .topic .channel{
+        display: none;
+    }
+    .nav .topic .categories{
+        display: none;
+    }
+    .nav .topic .my-stuff{
+        display: none;
+    }
+    .nav .topic .hide{
+        display: block;
+        margin-left: 96%;
+        margin-top: 3%;
+    }
+    .nav .topic .hide li{
+        padding-left: 65px;
+    }
+    .nav .try {
+        margin-left: 0%;
+        margin-top: 2%;
+    }
+    .nav .icon {
+        margin-left: 12%;
+        margin-top: 2.5%;
+    }
+    .nav .lan select {
+        background-color: #203336;
+        height: 5vh;
+        color: white;
+        border: none;
+        font-size: large;
+        margin-top: 7%;
+    }
+    .nav .person button {
+        width: 200%;
+        height: 5vh;
+        font-size: large;
+        color: white;
+        border: none;
+        background-color: transparent;
+        margin-top: 22%;
+    }
+    .offerrow .offerdetails {
+        margin-left: 52%;
+        padding-top: 100px;
+    }
+    .offerrow .offerdetails h1 {
+        font-size: xx-large;
+        line-height: 1;
+    }
+    .offerrow .offerdetails p {
+        margin-top: 5%;
+        padding-right: 100px;
+        font-size: larger;
+    }
+    .offerrow .offerdetails button {
+        width: 46%;
+        height: 9vh;
+        background-color: #0f79af;
+        color: white;
+        margin-top: 8%;
+        font-weight: bold;
+        font-size: x-large;
+    }
+}
+
+@media(max-width: 950px){
+    .bg {
+        background: linear-gradient(to left, rgba(0,0,0,0),rgba(0,0,0,1)),url(/images/Amazon\ bg\ 2.jpg);
+        height: 98vh;
+        width: 100%;
+        background-size: cover;
+    }
+    .nav .topic .hide {
+        display: block;
+        margin-left: 78%;
+        margin-top: 3%;
+    }
+    .bg .content {
+        width: 45%;
+        color: white;
+        padding-top: 108px;
+        margin-left: 5%;
+        font-size: larger;
+        margin-left: 8%;
+    }
+    .bg .content button {
+        background-color: #0f79af;
+        color: white;
+        font-size: large;
+        width: 55%;
+        height: 8vh;
+        margin-top: 8%;
+        font-weight: bold;
+    }
+    .bg2 {
+        background: linear-gradient(to right ,rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(/images/2nd\ bg.jpg);
+        height: 80vh;
+        width: 100%;
+        background-size: cover;
+    }
+    .bg2 .content-2 {
+        margin-left: 49%;
+        padding-top: 100px;
+    }
+    .bg2 .content-2 h1 {
+        font-size: xx-large;
+    }
+    .bg2 .content-2 p {
+        font-size: larger;
+        line-height: 1.1;
+        margin-top: 5%;
+    }
+    .bg2 .content-2 button {
+        background-color: #0f79af;
+        color: white;
+        font-size: large;
+        width: 50%;
+        height: 9vh;
+        margin-top: 5%;
+    }
+    .offerrow .offerdetails button {
+        width: 52%;
+        height: 9vh;
+        background-color: #0f79af;
+        color: white;
+        margin-top: 8%;
+        font-weight: bold;
+        font-size: x-large;
+    }
+    .familyfriendly .details button {
+        width: 70%;
+        height: 9vh;
+        background-color: #0f79af;
+        color: white;
+        margin-top: 10%;
+        font-weight: bold;
+        font-size: large;
+    }
+}
+
+@media(max-width: 900px){
+    .bg {
+        background: linear-gradient(to left, rgba(0,0,0,0),rgba(0,0,0,1)),url(/images/Amazon\ bg\ 2.jpg);
+        height: 92vh;
+        width: 100%;
+        background-size: cover;
+    }
+    .nav .topic .hide {
+        display: block;
+        margin-left: 65%;
+        margin-top: 3%;
+    }
+    .nav .icon {
+        margin-left: 14%;
+        margin-top: 2.5%;
+    }
+    .familyfriendly .details h1 {
+        font-size: xx-large;
+    }
+    .familyfriendly .details p {
+        font-size: large;
+        margin-top: 7%;
+    }
+    .familyfriendly .details button {
+        width: 78%;
+        height: 9vh;
+        background-color: #0f79af;
+        color: white;
+        margin-top: 10%;
+        font-weight: bold;
+        font-size: large;
+    }
+
+}
+
+@media(max-width:900px){
+    .nav .person {
+        margin-left: -2%;
+    }
+    .bg .content h1 {
+        font-size: xx-large;
+    }
+    .bg .content p {
+        font-size: large;
+        margin-top: 5%;
+    }
+    .bg .content button {
+        background-color: #0f79af;
+        color: white;
+        font-size: large;
+        width: 65%;
+        height: 8vh;
+        margin-top: 10%;
+        font-weight: bold;
+    }
+    .bg2 .content-2 button {
+        background-color: #0f79af;
+        color: white;
+        font-size: large;
+        width: 58%;
+        height: 9vh;
+        margin-top: 5%;
+    }
+    .offerrow .offerdetails button {
+        width: 52%;
+        height: 9vh;
+        background-color: #0f79af;
+        color: white;
+        margin-top: 8%;
+        font-weight: bold;
+        font-size: larger;
+    }
+    .familyfriendly {
+        height: 76vh;
+        width: 100%;
+    }
+}
+
+@media(max-width:850px){
+    .nav .topic .hide {
+        display: block;
+        margin-left: 55%;
+        margin-top: 3%;
+    }
+    .nav .topic .hide li {
+        padding-left: 60px;
+    }
+    .bg {
+        background: linear-gradient(to left, rgba(0,0,0,0),rgba(0,0,0,1)),url(/images/Amazon\ bg\ 2.jpg);
+        height: 87vh;
+        width: 100%;
+        background-size: cover;
+    }
+    .offerrow {
+        height: 80vh;
+        width: 100%;
+    }
+    .offerrow .offerdetails {
+        margin-left: 52%;
+        padding-top: 64px;
+    }
+    .familyfriendly {
+        height: 72vh;
+        width: 100%;
+    }
+    .familyfriendly .details {
+        color: white;
+        padding-top: 45px;
+        padding-left: 50px;
+        margin-right: 60%;
+    }
+    .mulchannels .details {
+        padding-top: 40px;
+        padding-left: 45px;
+        width: 45%;
+    }
+}
+
+@media(max-width: 800px){
+    .nav .topic .hide li {
+        padding-left: 34px;
+    }
+    .bg {
+        background: linear-gradient(to left, rgba(0,0,0,0),rgba(0,0,0,1)),url(/images/Amazon\ bg\ 2.jpg);
+        height: 67vh;
+        width: 100%;
+        background-size: cover;
+    }
+    .bg2 .content-2 {
+        margin-left: 50%;
+        padding-top: 100px;
+        padding-right: 13px;
+    }
+    .channels{
+        margin-left: 1%;
+    }
+    .familyfriendly {
+        height: 69vh;
+        width: 100%;
+    }
+    .familyfriendly .details {
+        color: white;
+        padding-top: 28px;
+        padding-left: 50px;
+        margin-right: 60%;
+    }
+}
+
+@media(max-width:750px){
+    .nav .topic .hide li {
+        padding-left: 60px;
+        font-size: small;
+    }
+    .nav .try p {
+        margin-top: 2%;
+        color: white;
+        background-color: #0f79af;
+        border-radius: 2px;
+        width: 280%;
+        height: 5vh;
+        padding: 4px;
+        text-align: center;
+        font-size: small;
+    }
+    .nav .lan select {
+        background-color: #203336;
+        height: 5vh;
+        color: white;
+        border: none;
+        font-size: large;
+        margin-top: 6%;
+        font-size: small;
+    }
+    .nav .person {
+        margin-left: -4%;
+    }
+    .nav .person button {
+        width: 200%;
+        height: 5vh;
+        font-size: large;
+        color: white;
+        border: none;
+        background-color: transparent;
+        margin-top: 23%;
+        font-size: small;
+    }
+    .bg {
+        background: linear-gradient(to left, rgba(0,0,0,0),rgba(0,0,0,1)),url(/images/Amazon\ bg\ 2.jpg);
+        height: 76vh;
+        width: 100%;
+        background-size: cover;
+    }
+    .mulchannels .details h1 {
+        font-size: xx-large;
+    }
+    .mulchannels .details p {
+        font-size: larger;
+        margin-top: 5%;
+    }
+    .offerrow .offerdetails {
+        margin-left: 65%;
+        padding-top: 32px;
+    }
+    .offerrow .offerdetails h1 {
+        font-size: x-large;
+        line-height: 1;
+    }
+    .offerrow .offerdetails p {
+        margin-top: 5%;
+        padding-right: 100px;
+        font-size: medium;
+    }
+    .footer {
+        height: 20vh;
+        width: 100%;
+        background-color: #130d0d;
+    }
+    .footer .terms a {
+        color: #0f79af;
+        text-decoration: none;
+        font-size: small;
+    }
+    .footer .year p {
+        text-align: center;
+        color: #9b9494;
+        line-height: 2;
+        font-size: small;
+    }
+}
+
+
+@media(max-width: 700px){
+    .nav .topic .hide li {
+        padding-left: 12px;
+        font-size: small;
+    }
+    .bg .content {
+        width: 50%;
+        color: white;
+        padding-top: 100px;
+        font-size: larger;
+        margin-left: 8%;
+    }
+    .channels{
+        margin-left: 0%;
+    }
+    .mulchannels .details {
+        padding-top: 35px;
+        padding-left: 30px;
+    }
+    .offerrow .offerdetails {
+        margin-left: 65%;
+        padding-top: 75px;
+    }
+    .offerrow .offerdetails h1 {
+        font-size: larger;
+        line-height: 1;
+    }
+    .offerrow .offerdetails p {
+        margin-top: 5%;
+        padding-right: 100px;
+        font-size: small;
+    }
+    .familyfriendly .details {
+        color: white;
+        padding-top: 45px;
+        padding-left: 50px;
+        margin-right: 60%;
+    }
+    .familyfriendly .details p {
+        font-size: medium;
+        margin-top: 7%;
+    }
+    
+
+}
+
+@media(max-width: 650px){
+    .header {
+        height: 53vh;
+       } 
+         .topic{
+        margin-top: 0%;
+    }
+    .bg{
+        height: 60vh;
+    }
+    .bg .content{
+        padding-top: 25px;
+    }
+    .bg .content button {
+        width: 68%;
+        height: 7vh;
+    }
+    .bg2{
+        height: 53vh;
+    }
+    .bg2 .content-2{
+        padding-top: 25px;
+    }
+    .nav .topic .hide {
+        display: block;
+        margin-left: 50%;
+        margin-top: 8%;
+    }
+    .nav .topic .hide li {
+        padding-left: 5px;
+        font-size: small;
+    }
+    .nav .try{
+        margin-top: 7%;
+    }
+    .nav .try p{
+        height: 4vh;
+        width: 250%;
+    }
+    .nav .icon{
+        margin-top: 8%;
+    }
+    .nav .lan select {
+        margin-top: 20%;
+    }
+    .nav .person button {
+        margin-top: 62%;
+    }
+    .bg2 .content-2 button {
+    width: 55%;
+    height: 7vh;
+    }
+    .mulchannels .details {
+        padding-top: 4px;
+        padding-left: 20px;
+    }
+    .mulchannels .details h1 {
+        font-size: x-large;
+    }
+    .channels {
+        gap: 0px;
+    }
+    .channels img {
+        width: 95%;
+        height: 12vh;
+    }
+    
+
+    .offerrow{
+        height: 58vh;
+    }
+    .offerrow .offerdetails {
+        margin-left: 60%;
+        padding-top: 15px;
+    }
+    .offerrow .offerdetails button {
+        width: 70%;
+        height: 7vh;
+    }
+    .familyfriendly{
+        height: 56vh;
+    }
+    .familyfriendly .details h1 {
+        font-size: x-large;
+    }
+    .familyfriendly .details p {
+        font-size: smaller;
+    }
+    .familyfriendly .details {
+        color: white;
+        padding-top: 35px;
+        padding-left: 50px;
+        margin-right: 60%;
+    }
+    .familyfriendly .details button {
+        width: 80%;
+        height: 7vh;
+    }
+    .footer {
+        height: 20vh;
+    }
+   
+}
+
+
+
+@media(max-width: 600px){
+    .nav .topic .hide{
+        margin-left: 55%;
+    }
+    .topic{
+        margin-top: 0%;
+        margin-left: 10%;
+    }
+    .nav .topic .hide li{
+        margin-top: 10%;
+    }
+    .bg{
+        background: black;
+        margin-top: 32%;
+    }
+    .bg .content {
+        width: 95%;
+        margin-left: 5%;
+    }
+    .bg .content h1 {
+        font-size: xx-large;
+        text-align: center;
+        margin-left: 0%;
+        padding-left: 0px;
+    }
+    .bg .content p{
+        text-align: center;
+        margin-left: 0%;
+        font-size: small;
+    }
+    .bg .content button {
+        width: 95%;
+    }
+    .nav{
+        margin-top: 0%;
+        padding-top: 0px;
+        transform: translate(0px, -59px);
+    }
+    .nav .try{
+        display: none;
+    }
+    .nav .icon {
+        margin-left: 5%;
+        display: block;
+    }
+
+    .header{
+        margin-top: 10%;
+        height: 50vh;
+        width: 100%;
+        background-size: cover;
+        background-image: url(/images/Amazon\ bg\ 2.jpg);
+    }
+    .bg2 {
+        height: 90vh;
+        width: 100%;
+        background-image: url(/images/2nd\ bg.jpg);
+    }
+    .bg2 .content-2{
+        padding-top: 58px;
+        padding-right: 0px;
+        margin-left: 0%;
+        width: 100%;
+        background: black;
+    }
+    .bg2 .content-2 h1{
+        text-align: center;
+    }
+    .bg2 .content-2 p {
+        font-size: small;
+        text-align: center;
+    }
+    .bg2 .content-2 button{
+        text-align: center;
+        width: 90%;
+        margin-left: 4%;
+        margin-bottom: 15%;
+        width: 90%;   
+    }
+    .mulchannels{
+        flex-direction: column;
+    }
+    .channels {
+        gap: 5px;
+        margin-left: 12%;
+        margin-top: 3%;
+    }
+    .channels img {
+        width: 100%;
+        height: 17vh;
+    }
+    .mulchannels .details {
+        padding-top: 20px;
+        padding-left: 20px;
+        width: 100%;
+    }
+    .mulchannels .details h1 {
+        font-size: x-large;
+    }
+    .mulchannels .details p {
+        font-size: medium;
+        margin-top: 2%;
+        text-align: center;
+    }
+    .offerrow {
+        height: 130vh;
+        width: 100%;
+        background: black;
+        margin-top: 0%;
+        background: url(/images/offerrow\ crop.jpg);
+        background-size: cover;
+    }
+    .offerrow .offerdetails{
+        height: 50vh;
+        transform: translateY(439px);
+        margin-left: 0%;
+        background: black;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .offerrow .offerdetails h1 {
+        font-size: x-large;
+        text-align: center;
+        padding-top: 25px;
+    }
+    .offerrow .offerdetails p {
+        margin-top: 3%;
+        padding-right: 0px;
+        font-size: small;
+        text-align: center;
+    }
+    .offerrow .offerdetails button{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .familyfriendly{
+        background: black;
+        background-size: cover;
+        background-image: url(/images/last\ pg\ chhota\ bheem\ crop.jpg);
+        height: 117vh;
+        width: 100%;
+    }
+    .familyfriendly .details {
+        padding-top: 20px;
+        padding-left: 0px;
+        margin-right: 0%;
+        transform: translateY(438px);
+        background: black;
+        text-align: center;
+    }
+    .familyfriendly .details p {
+        margin-top: 2%;
+    }
+    .familyfriendly .details button {
+        margin-top: 5%;
+        margin-bottom: 4%;
+    }
+    .footer {
+        height: 20vh;
+    }
+}
+
+@media(max-width: 550px){
+    .header{
+        background-position-x: -45px;
+    }
+    .bg{
+    height: 40vh;
+    }
+    .bg .content p {
+        margin-top: 2%;
+    }
+    .bg .content button {
+        margin-top: 2%;
+    }
+    .nav .try{
+        display: none;
+    }
+    .nav .topic .hide {
+        margin-left: 50%;
+        margin-top: 8%;
+    }
+    .nav .icon {
+    margin-top: 10%;
+}
+    .nav .lan select {
+        margin-top: 26%;
+    }
+    .nav .person button {
+        margin-top: 89%;
+        margin-left: 50%;
+    }    
+    .nav .icon {
+        margin-left: 0%;
+    }
+    .channels {
+        gap: 12px;
+        margin-left: 2%;
+    }
+    .channels .types{
+        text-align: center;
+    }
+    .offerrow{
+        background: url(/images/offerrow.jpg);
+        background-size: cover;
+    }
+    .familyfriendly{
+        height: 87vh;
+    }
+    .familyfriendly .details {
+        padding-top: 8px;
+        transform: translateY(294px);
+    }
+    .footer .image {
+        padding-top: 3%;
+    }
+}
+
+@media(max-width: 500px){
+    .header {
+        background-position-x: 0px;
+        height: 40vh;
+        margin-top: 9%;
+    }
+    .header .logo img {
+        height: 8vh;
+        width: 80%;
+    }
+    .nav{
+        height: 8vh;
+        transform: translate(0px, -43px);
+    }
+    .nav .icon {
+        margin-top: 7%;
+    }
+    .nav .lan select {
+        margin-top: 16%;
+        font-size: xx-small;
+        background-color: rgb(34 32 50);
+    }
+    .nav .person button {
+        font-size: x-small;
+        margin-top: 46%;
+        margin-left: 0%;
+    }
+    .nav .topic .hide {
+        margin-left: 70%;
+    }
+    .nav .topic .hide li {
+        font-size: x-small;
+        margin-top: 6%;
+        padding-left: 15px;
+    }
+    .bg .content {
+        padding-top: 35px;
+    }
+    .bg .content h1 {
+        font-size: larger;
+    }
+    .bg .content p{
+        margin-top: 2%;
+    }
+    .bg .content button {
+        height: 5vh;
+        font-size: x-small;
+        margin-top: 5%;
+    }
+    .bg2 .content-2{
+        padding-top: 0px;
+    }
+    .bg2 .content-2 h1 {
+        font-size: larger;
+    }
+    .bg2 .content-2 p {
+        margin-top: 2%;
+    }
+    .bg2 .content-2 button {
+        width: 50%;
+        margin-bottom: 6%;
+        margin-left: 25%;
+        font-size: x-small;
+    }
+    .topic {
+        margin-left: 0%;
+    }
+    .offerrow {
+        background-position-x: -170px; 
+        background-position-y: -105px;
+    }
+    .offerrow .offerdetails h1 {
+        padding-top: 12px;
+        font-size: larger;
+    }
+    .offerrow .offerdetails button {
+        height: 5vh;
+        font-size: x-small;
+         width: 85%;
+        margin-top: 5%;
+        margin-left: 7%;
+    }
+    .familyfriendly {
+        height: 118vh;
+        background-position-x: -115px;
+        background-position-y: -85px;
+        background-size: cover;
+    }
+    .familyfriendly .details {
+        padding-top: 8px;
+        transform: translateY(480px);
+    }
+    .familyfriendly .details button {
+        height: 5vh;
+        width: 50%;    
+    }
+    .footer{
+        height: 15vh;
+    }
+    .footer .image img{
+        width: 10%;
+        height: 2vh;
+    }
+    .footer .terms a{
+        font-size: xx-small;
+    }
+    .footer .year p{
+        font-size: xx-small;
+    }
+}
+
+
+@media(max-width:450px){
+    .header {
+        height: 35vh;
+        background-position-x: 0px;
+        margin-top: 7%;
+    }
+    .nav{
+        height: 6vh;
+        transform: translateY(-32px);
+    }
+    .header .logo img {
+        height: 6vh;
+        width: 95%;
+    }
+    .nav .try{
+        display: block;
+        margin-top: 3%;
+    }
+    .nav .topic .hide{
+        margin-left: 40%;
+        margin-top: 3%;
+    }
+    .nav .topic .hide li {
+        font-size: xx-small;
+        padding-left: 0px;
+    }
+    .nav .try p {
+        height: 4vh;
+        width: 200%;
+        font-size: xx-small;
+    }
+    .nav .icon {
+        margin-top: 3%;
+        margin-left: 8%;
+    }
+    .nav .lan select {
+        margin-top: 3%;
+        font-size: xx-small;
+    }
+    .nav .person button {
+        margin-top: 8%;
+        font-size: xx-small;
+    }
+    .mulchannels .details {
+        padding-left: 0px;
+    }
+    .mulchannels .details h1 {
+        font-size: smaller;
+        text-align: center;
+    }
+    .mulchannels .details p {
+        font-size: x-small;
+        margin-top: 1%;
+    }
+    .mulchannels{
+        text-align: center;
+    }
+    .channels {
+        gap: 5px;
+        margin-left: 0%;
+        justify-content: center;
+    }
+    .channels img {
+        width: 100%;
+        height: 12vh;
+    }
+    .offerrow {
+        background-position-x: -175px;
+        background-position-y: -130px;
+        height: 116vh;
+    }
+    .offerrow .offerdetails {
+        height: 35vh;
+    }
+    .offerrow .offerdetails h1 {
+        font-size: smaller;
+    }
+    .offerrow .offerdetails p{
+        font-size: xx-small;
+    } 
+    .familyfriendly {
+        height: 118vh;
+    }
+    .familyfriendly .details{
+        height: 30vh;
+        padding-top: 30px;
+    }
+    .familyfriendly .details h1 {
+        font-size: smaller;
+    }
+    .familyfriendly .details p {
+        margin-top: 2%;
+        font-size: xx-small;
+    }
+}
+
+
+
+@media(max-width: 400px){
+    .nav .topic .hide{
+        margin-left: 28%;
+    }
+    .header {
+        background-position-x: 0px;
+        height: 28vh;
+    }
+    .bg2 {
+        height: 75vh;
+    }
+    .offerrow {
+        height: 73vh;
+        background-position-x: -38px;
+        background-position-y: -90px;
+    }
+    .offerrow .offerdetails {
+        transform: translateY(187px);
+        height: 22vh;
+    }
+    .offerrow .offerdetails h1 {
+        padding-top: 0px;
+    }
+    .offerrow .offerdetails button {
+        margin-top: 4%;
+    }
+    .familyfriendly {
+        height: 60vh;
+        background-position-x: 0px;
+        background-position-y: -45px;
+    }
+    .familyfriendly .details{
+        transform: translateY(235px);
+    }
+    .familyfriendly .details button {
+        font-size: x-small;
+    }
+    .footer{
+        padding-top: 65px;
+        height: 25vh;
+    }
+}
+
+
+@media(max-width: 350px){
+    .header{
+        margin-top: 10%;
+    }
+    .topic {
+        margin-top: 1%;
+        gap: 8px;
+    }
+    .nav .try{
+        margin-top: 2%;
+    }
+    .nav .try p {
+        height: 3vh;
+        width: 200%;
+    }
+    .nav .topic .hide {
+        margin-left: 19%;
+    }
+    .nav .icon {
+        margin-top: 1%;
+        margin-left: 12%;
+    }
+    .nav .lan select {
+        margin-top: 0%;
+    }
+    .nav .person button {
+        margin-top: 0%;
+    }
+    .bg {
+        height: 37vh;
+    }
+    .bg .content h1 {
+        font-size: smaller;
+    }
+    .bg .content button{
+        font-size: xx-small;
+    }
+    .bg2 .content-2 h1 {
+        font-size: smaller;
+    }
+    .bg2 .content-2 p {
+        font-size: x-small;
+    }
+    .bg2 .content-2 button {
+        width: 40%;
+        margin-bottom: 6%;
+        margin-left: 30%;
+        font-size: xx-small;
+        height: 5vh;
+    }
+    .channels{
+        gap: 0px;
+        margin-left: 0%;
+        text-align: center;
+    }
+    .channels img {
+        width: 95%;
+        height: 10vh;
+    }
+    .offerrow {
+        height: 58vh;
+        background-position-x: -25px;
+        background-position-y: -75px;
+    }
+    .offerrow .offerdetails {
+        padding-left: 50px;
+        padding-right: 40px; 
+        height: 25vh;
+    }
+    .familyfriendly {
+        height: 55vh;
+    }
+    .familyfriendly .details p {
+        font-size: xx-small;
+    }
+    .familyfriendly .details button{
+        font-size: xx-small;
+    }
+    .footer{
+        padding-top: 95px;
+        height: 30vh;
+    }
+}
