@@ -881,16 +881,19 @@
         background-image: url(/images/Amazon\ bg\ 2.jpg);
     }
     .bg2 {
-        height: 90vh;
+        height: 100vh;
         width: 100%;
         background-image: url(/images/2nd\ bg.jpg);
+        position: relative;
     }
     .bg2 .content-2{
-        padding-top: 58px;
+        padding-top: 28px;
         padding-right: 0px;
         margin-left: 0%;
         width: 100%;
         background: black;
+        position: absolute;
+        bottom: 0px;
     }
     .bg2 .content-2 h1{
         text-align: center;
@@ -903,7 +906,7 @@
         text-align: center;
         width: 90%;
         margin-left: 4%;
-        margin-bottom: 15%;
+        margin-bottom: 12%;
         width: 90%;   
     }
     .mulchannels{
@@ -924,7 +927,7 @@
         width: 100%;
     }
     .mulchannels .details h1 {
-        font-size: x-large;
+        font-size: xx-large;
     }
     .mulchannels .details p {
         font-size: medium;
@@ -932,26 +935,30 @@
         text-align: center;
     }
     .offerrow {
-        height: 130vh;
+        height: 100vh;
         width: 100%;
         background: black;
         margin-top: 0%;
         background: url(/images/offerrow\ crop.jpg);
         background-size: cover;
+        position: relative;
+        background-position-x: -60px;
+        background-position-y: -75px;
     }
     .offerrow .offerdetails{
-        height: 50vh;
-        transform: translateY(439px);
+        height: 45vh;
+        /* transform: translateY(439px); */
         margin-left: 0%;
         background: black;
         padding-left: 0px;
         padding-right: 0px;
+        position: absolute;
+        bottom: 0px;
     }
-
     .offerrow .offerdetails h1 {
         font-size: x-large;
         text-align: center;
-        padding-top: 25px;
+        padding-top: 5px;
     }
     .offerrow .offerdetails p {
         margin-top: 3%;
@@ -962,21 +969,26 @@
     .offerrow .offerdetails button{
         width: 80%;
         margin-left: 10%;
+        margin-top: 5%;
     }
     .familyfriendly{
         background: black;
         background-size: cover;
         background-image: url(/images/last\ pg\ chhota\ bheem\ crop.jpg);
-        height: 117vh;
+        height: 100vh;
         width: 100%;
+        position: relative;
+        background-position-y: -85px;
     }
     .familyfriendly .details {
         padding-top: 20px;
         padding-left: 0px;
         margin-right: 0%;
-        transform: translateY(438px);
+        /* transform: translateY(438px); */
         background: black;
         text-align: center;
+        position: absolute;
+        bottom: 0;
     }
     .familyfriendly .details p {
         margin-top: 2%;
@@ -1033,15 +1045,13 @@
     .offerrow{
         background: url(/images/offerrow.jpg);
         background-size: cover;
-        height: 112vh;
-        background-position-x: -102px;
-        background-position-y: -155px;
+        height: 100vh;
+        background-position-x: -70px;
+        background-position-y: -120px;
     }
     .offerrow .offerdetails {
+        /* transform: translateY(312px); */
         height: 35vh;
-    }
-    .offerrow .offerdetails {
-        transform: translateY(312px);
         padding-top: 5px;
     }
     .offerrow .offerdetails h1 {
@@ -1057,13 +1067,13 @@
     }
     .familyfriendly .details {
         padding-top: 5px;
-        transform: translateY(335px);
+        /* transform: translateY(335px); */
     }
     .footer {
-        height: 25vh;
+        height: 18vh;
     }
     .footer .image {
-        padding-top: 10%;
+        padding-top: 2%;
     }
 }
 
@@ -1117,7 +1127,7 @@
         margin-top: 5%;
     }
     .bg2 .content-2{
-        padding-top: 0px;
+        padding-top: 50px;
     }
     .bg2 .content-2 h1 {
         font-size: larger;
@@ -1126,17 +1136,22 @@
         margin-top: 2%;
     }
     .bg2 .content-2 button {
+        height: 5vh;
         width: 50%;
-        margin-bottom: 6%;
+        margin-bottom: 15%;
         margin-left: 25%;
         font-size: x-small;
     }
     .topic {
         margin-left: 0%;
     }
+    .channels {
+        margin-left: 7%;
+    }
     .offerrow {
-        background-position-x: -170px; 
-        background-position-y: -105px;
+        height: 85vh;
+        background-position-x: -40px; 
+        background-position-y: -100px;
     }
     .offerrow .offerdetails h1 {
         padding-top: 12px;
@@ -1150,14 +1165,14 @@
         margin-left: 7%;
     }
     .familyfriendly {
-        height: 118vh;
-        background-position-x: -115px;
-        background-position-y: -85px;
+        height: 82vh;
+        background-position-x: 0px;
+        background-position-y: -55px;
         background-size: cover;
     }
     .familyfriendly .details {
         padding-top: 8px;
-        transform: translateY(480px);
+        /* transform: translateY(480px); */
     }
     .familyfriendly .details button {
         height: 5vh;
@@ -1222,11 +1237,17 @@
         margin-top: 8%;
         font-size: xx-small;
     }
+    .bg2{
+        position: relative;
+    }
+    .bg2 .content-2{
+        position: absolute;
+    }
     .mulchannels .details {
         padding-left: 0px;
     }
     .mulchannels .details h1 {
-        font-size: smaller;
+        font-size: x-large;
         text-align: center;
     }
     .mulchannels .details p {
@@ -1246,9 +1267,9 @@
         height: 12vh;
     }
     .offerrow {
-        background-position-x: -175px;
-        background-position-y: -130px;
-        height: 116vh;
+        background-position-x: -40px;
+        background-position-y: -100px;
+        height: 80vh;
     }
     .offerrow .offerdetails {
         height: 35vh;
@@ -1260,11 +1281,11 @@
         font-size: xx-small;
     } 
     .familyfriendly {
-        height: 118vh;
+        height: 75vh;
     }
     .familyfriendly .details{
-        height: 30vh;
-        padding-top: 30px;
+        height: 28vh;
+        padding-top: 20px;
     }
     .familyfriendly .details h1 {
         font-size: smaller;
@@ -1280,10 +1301,21 @@
 @media(max-width: 400px){
     .nav .topic .hide{
         margin-left: 28%;
+        margin-top: 5%;
     }
     .header {
         background-position-x: 0px;
         height: 28vh;
+    }
+    .nav .try p{
+        height: 3vh;
+        margin-top: 20%;
+    }
+    .nav .lan select {
+        margin-top: 6%;
+    }
+    .nav .person button {
+        margin-top: 25%;
     }
     .bg2 {
         height: 75vh;
@@ -1294,29 +1326,33 @@
         background-position-y: -90px;
     }
     .offerrow .offerdetails {
-        transform: translateY(187px);
-        height: 22vh;
+        /* transform: translateY(187px); */
+        height: 30vh;
     }
     .offerrow .offerdetails h1 {
-        padding-top: 0px;
+        padding-top: 10px;
     }
     .offerrow .offerdetails button {
         margin-top: 4%;
     }
     .familyfriendly {
-        height: 60vh;
-        background-position-x: 0px;
-        background-position-y: -45px;
+        height: 67vh;
+        background-position-x: -16px;
+        background-position-y: -58px;
     }
-    .familyfriendly .details{
-        transform: translateY(235px);
+    .familyfriendly .details {
+        height: 25vh;
+        padding-top: 10px;
     }
     .familyfriendly .details button {
         font-size: x-small;
     }
-    .footer{
-        padding-top: 65px;
-        height: 25vh;
+    .footer {
+        padding-top: 2px;
+        height: 13vh;
+    }
+    .footer .image {
+        padding-top: 0%;
     }
 }
 
@@ -1330,15 +1366,19 @@
         gap: 8px;
     }
     .nav .try{
-        margin-top: 2%;
+        margin-top: 0%;
     }
     .nav .try p {
         height: 3vh;
         width: 200%;
     }
     .nav .topic .hide {
-        margin-left: 19%;
+        margin-left: 16%;
     }
+    .nav .topic .hide {
+        margin-top: 3%;
+    }
+    
     .nav .icon {
         margin-top: 1%;
         margin-left: 12%;
@@ -1357,6 +1397,13 @@
     }
     .bg .content button{
         font-size: xx-small;
+    }
+    .bg2{
+        height: 60vh;
+    }
+    .bg2 .content-2 {
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
     .bg2 .content-2 h1 {
         font-size: smaller;
@@ -1393,14 +1440,17 @@
     .familyfriendly {
         height: 55vh;
     }
+    .familyfriendly {
+        background-position-x: 0px;
+    }
     .familyfriendly .details p {
         font-size: xx-small;
     }
     .familyfriendly .details button{
         font-size: xx-small;
     }
-    .footer{
-        padding-top: 95px;
-        height: 30vh;
+    .footer {
+        padding-top: 0px;
+        height: 12vh;
     }
 }
