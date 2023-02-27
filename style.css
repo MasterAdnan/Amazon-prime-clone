@@ -1371,6 +1371,7 @@
     .nav .try p {
         height: 3vh;
         width: 200%;
+        padding: 3px;
     }
     .nav .topic .hide {
         margin-left: 16%;
@@ -1390,7 +1391,10 @@
         margin-top: 0%;
     }
     .bg {
-        height: 37vh;
+        height: 25vh;
+    }
+    .bg .content {
+        padding-top: 15px;
     }
     .bg .content h1 {
         font-size: smaller;
@@ -1399,7 +1403,7 @@
         font-size: xx-small;
     }
     .bg2{
-        height: 60vh;
+        height: 55vh;
     }
     .bg2 .content-2 {
         padding-top: 20px;
