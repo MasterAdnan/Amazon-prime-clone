@@ -1024,8 +1024,8 @@
         margin-left: 0%;
     }
     .channels {
-        gap: 12px;
-        margin-left: 2%;
+        gap: 5px;
+        margin-left: 10%;
     }
     .channels .types{
         text-align: center;
@@ -1033,16 +1033,37 @@
     .offerrow{
         background: url(/images/offerrow.jpg);
         background-size: cover;
+        height: 112vh;
+        background-position-x: -102px;
+        background-position-y: -155px;
+    }
+    .offerrow .offerdetails {
+        height: 35vh;
+    }
+    .offerrow .offerdetails {
+        transform: translateY(312px);
+        padding-top: 5px;
+    }
+    .offerrow .offerdetails h1 {
+        padding-top: 5px;
+    }
+    .offerrow .offerdetails button{
+        margin-top: 4%;
     }
     .familyfriendly{
         height: 87vh;
+        background-position-x: -5px;
+        background-position-y: -65px;
     }
     .familyfriendly .details {
-        padding-top: 8px;
-        transform: translateY(294px);
+        padding-top: 5px;
+        transform: translateY(335px);
+    }
+    .footer {
+        height: 25vh;
     }
     .footer .image {
-        padding-top: 3%;
+        padding-top: 10%;
     }
 }
 
