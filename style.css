@@ -1352,7 +1352,7 @@ nav .nav2{
         margin-left: 0%;
     }
     .channels {
-        margin-left: 7%;
+        margin-left: 0%;
     }
     .offerrow {
         height: 85vh;
@@ -1523,12 +1523,12 @@ nav .nav2{
         height: 12vh;
     }
     .offerrow {
-        background-position-x: -40px;
+        background-position-x: 0px;
         background-position-y: -100px;
-        height: 80vh;
+        height: 72vh;
     }
     .offerrow .offerdetails {
-        height: 38vh;
+        height: 35vh;
     }
     .offerrow .offerdetails h1 {
         font-size: smaller;
@@ -1539,9 +1539,9 @@ nav .nav2{
     .familyfriendly {
         height: 75vh;
     }
-    .familyfriendly .details{
-        height: 28vh;
-        padding-top: 20px;
+    .familyfriendly .details {
+        height: 22vh;
+        padding-top: 10px;
     }
     .familyfriendly .details h1 {
         font-size: smaller;
@@ -1587,10 +1587,11 @@ nav .nav2{
         width: 40%;
     }
     .bg2 {
-        height: 75vh;
+        height: 65vh;
     }
     .bg2 .content-2 {
-        height: 35vh;
+        height: 32vh;
+        padding-top: 15px;
     }
     .bg2 .content-2 button{
         margin-bottom: 0%;
@@ -1601,9 +1602,9 @@ nav .nav2{
         /* justify-content: space-evenly; */
     }
     .offerrow {
-        height: 73vh;
-        background-position-x: -38px;
-        background-position-y: -90px;
+        height: 55vh;
+        background-position-x: 0px;
+        background-position-y: -75px;
     }
     .offerrow .offerdetails {
         /* transform: translateY(187px); */
