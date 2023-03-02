@@ -1402,7 +1402,7 @@ nav .nav2{
 
 @media(max-width:450px){
     .header {
-        height: 35vh;
+        height: 36vh;
         background-position-x: 0px;
         margin-top: 0%;
     }
@@ -1420,6 +1420,9 @@ nav .nav2{
     } */
     nav .nav1{
         width: 48%;
+    }
+    nav .nav1 img {
+        width: 35%;
     }
     nav .nav2 .iconic {
         margin-top: 3%;
@@ -1505,10 +1508,15 @@ nav .nav2{
     .mulchannels{
         text-align: center;
     }
-    .channels {
+    /* .channels {
         gap: 0px;
         margin-left: 0%;
         justify-content: space-evenly;
+    } */
+    .channels {
+        gap: 8px;
+        margin-left: 0%;
+        /* justify-content: space-evenly; */
     }
     .channels img {
         width: 100%;
@@ -1547,34 +1555,50 @@ nav .nav2{
 
 
 @media(max-width: 400px){
-    .nav .topic .hide{
-        margin-left: 28%;
-        margin-top: 5%;
-    }
     .header {
-        background-position-x: -15px;
-        height: 32vh;
+        background-position-x: 0px;
+        height: 33vh;
     }
-    .nav .icon {
-        margin-top: 6%;
-        margin-left: 0%;
+    nav .nav1 {
+        width: 36%;
     }
-    .nav .try p{
-        height: 3vh;
-        margin-top: 20%;
+    nav .nav1 {
+        width: 38%;
     }
-    .nav .lan select {
-        margin-top: 12%;
-        width: 75%;
+    nav .nav1 img {
+        margin-left: 5%;
+        width: 45%;
     }
-    .nav .person {
-        margin-left: -8%;
+    nav .nav2 {
+        gap: 15px;
+        width: 55%;
     }
-    .nav .person button {
-        margin-top: 25%;
+    nav .nav2 .browse select {
+        width: 121%;
+    }
+    nav .nav2 .iconic{
+        font-size: inherit;
+    }
+    nav .nav2 .language select{
+        font-size: medium;
+        width: 80%;
+    }
+    nav .nav2 .signinwatchhelp select {
+        width: 40%;
     }
     .bg2 {
         height: 75vh;
+    }
+    .bg2 .content-2 {
+        height: 35vh;
+    }
+    .bg2 .content-2 button{
+        margin-bottom: 0%;
+    }
+    .channels {
+        gap: 8px;
+        margin-left: 0%;
+        /* justify-content: space-evenly; */
     }
     .offerrow {
         height: 73vh;
@@ -1632,9 +1656,10 @@ nav .nav2{
     .header {
         background-position-x: -50px;
         height: 32vh;
-        margin-top: 10%;
+        margin-top: 0%;
     }
-    .topic {
+    
+    /* .topic {
         margin-top: 1%;
         gap: 8px;
     }
@@ -1671,6 +1696,15 @@ nav .nav2{
         margin-top: 12%;
         font-size: medium;
         margin-left: 0%;
+    } */
+    nav .nav1 {
+        width: 35%;
+    }
+    nav .nav2 {
+        gap: 0px;
+    }
+    nav .nav2 .browse select {
+        width: 125%;
     }
     .bg {
         height: 40vh;
