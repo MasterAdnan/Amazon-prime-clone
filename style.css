@@ -1559,6 +1559,7 @@ nav .nav2{
         background-position-x: 0px;
         height: 33vh;
     }
+    
     nav .nav1 {
         width: 36%;
     }
@@ -1655,57 +1656,38 @@ nav .nav2{
 
 @media(max-width: 350px){
     .header {
-        background-position-x: -50px;
-        height: 32vh;
+        background-position-x: 0px;
+        height: 29vh;
         margin-top: 0%;
     }
-    
-    /* .topic {
-        margin-top: 1%;
-        gap: 8px;
-    }
-    .nav .try{
-        margin-top: 0%;
-    }
-    .nav .try p {
-        height: 3vh;
-        width: 200%;
-        padding: 3px;
-    }
-    .nav .topic .hide {
-        margin-left: 16%;
-    }
-    .nav .topic .hide {
-        margin-top: 3%;
-    }
-    
-    .nav .icon {
-        margin-top: 4%;
-        margin-left: 0%;
-    }
-    .nav .lan {
-        width: 13%;
-    }
-    .nav .lan select {
-        margin-top: 20%;
-        width: 145%;
-    }
-    .nav .person {
-        margin-left: 0%;
-    }
-    .nav .person button {
-        margin-top: 12%;
-        font-size: medium;
-        margin-left: 0%;
-    } */
     nav .nav1 {
         width: 35%;
     }
+    nav .nav1 img {
+        margin-left: 3%;
+        width: 65%;
+    }
     nav .nav2 {
         gap: 0px;
+        width: 65%;
+    }
+    nav .nav2 .browse {
+        margin-top: 2%;
     }
     nav .nav2 .browse select {
-        width: 125%;
+        width: 85%;
+    }
+    nav .nav2 .language{
+        width: 35%;
+    }
+    nav .nav2 .language select{
+        width: 62%;
+    }
+    nav .nav2 .signinwatchhelp {
+        width: 22%;
+    }
+    nav .nav2 .signinwatchhelp select {
+        width: 35%;
     }
     .bg {
         height: 40vh;
@@ -1746,7 +1728,7 @@ nav .nav2{
         text-align: center;
     }
     .channels img {
-        width: 100%;
+        width: 90%;
         height: 12vh;
     }
     .offerrow {
